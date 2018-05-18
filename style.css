@@ -1,0 +1,107 @@
+canvas{
+			-moz-user-select: none;
+			-webkit-user-select: none;
+			-ms-user-select: none;
+		}
+		#chartjs-tooltip {
+			opacity: 2;
+			position: absolute;
+			background: rgba(0, 0, 0, .7);
+			color: white;
+
+
+
+			border-radius: 5px;
+			-webkit-transition: all .1s ease;
+			transition: all .1s ease;
+			pointer-events: none;
+			-webkit-transform: translate(-50%, 0);
+			transform: translate(-50%, 0);
+		}
+
+		.chartjs-tooltip-key {
+			display: inline-block;
+			width: 10px;
+			height: 10px;
+			margin-right: 10px;
+		}
+
+.chart-container {
+	overflow: hidden;
+	border-color: black;
+}
+
+
+.form-group > label {
+  margin-left: 10px;
+  font-weight: normal;
+  font-size: 13px;
+}
+
+.form-group > span > label{
+  background-color: white;
+   margin-left: 10px;
+  font-weight: normal;
+  font-size: 13px;
+  padding: 4px;
+  color: grey;
+}
+
+.form-group > select {
+  margin-top: -20.5px;
+  font-weight: bold;
+  height: 45px;
+  text-indent: 5px;
+
+}
+
+.form-group > span{
+	font-size: 15px;
+	
+}
+
+.form-group > span:hover{
+	font-size: 15px;
+	margin: 15px;
+	color: #0080ff;
+	cursor: pointer;
+}
+
+.form-group > span:active{
+	font-size: 15px;
+	margin: 15px;
+	color: #0080ff;
+	
+}
+
+.container .row .chart-container .crop1  {
+	background-color: white;
+	border-radius: 10px;
+	border: 1px solid lightgrey;
+
+
+	}
+
+.container .row .chart-container .crop2  {
+	background-color: white;
+	border-radius: 10px;
+	border: 1px solid lightgrey;
+		}
+
+.wrapper.col-2 {
+	display: inline-block;
+	min-height: 656px;
+	width: 100%;
+}
+
+.container .row .survey  {
+	background-color: white;
+	border-radius: 10px;
+	border: 1px solid lightgrey;
+		}
+
+		.container .row .nextsurvey  {
+	background-color: white;
+	border-radius: 10px;
+	border: 1px solid lightgrey;
+		}
