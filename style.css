@@ -92,6 +92,9 @@ canvas{
 	display: inline-block;
 	min-height: 656px;
 	width: 100%;
+	border: 1px solid lightgrey;
+	border-radius: 10px;
+	background-color: white;
 }
 
 .container .row .survey  {
